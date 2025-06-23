@@ -23,7 +23,7 @@ For custom integrations or integrating with other MCP clients, follow the instru
    {
      "mcpServers": {
        "dash0": {
-         "transport": "http",
+         "type": "streamableHttp",
          "url": "{{endpoint_mcp}}",
          "headers": {
            "Authorization": "Bearer {{token}}"
